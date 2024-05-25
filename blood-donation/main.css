@@ -1,0 +1,303 @@
+* {
+    box-sizing: border-box;
+}
+ 
+body {
+    margin: 0px;
+}
+ 
+#info {
+    overflow: hidden;
+ 
+    z-index: 10;
+    position: absolute;
+    text-align: center;
+    overflow: auto;
+    left: 0;
+    top: 400px;
+    -webkit-animation: myfirst1 0.5s ease-in-out 0.1s 1 normal;
+    animation: myfirst1 0.5s ease-in-out 0.1s 1 normal;
+}
+ 
+#info1 {
+    position: absolute;
+    left: 35%;
+    top: 150px;
+    font-size: 16px;
+    font-size: 3vw;
+    color: rgb(252, 5, 5);
+    text-shadow: 1px 1px 2px black;
+    z-index: 10;
+}
+ 
+form select {
+ 
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 2px 10px;
+    width: 30%;
+    height: 50px;
+    width: 30%;
+    background: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid #ccc;
+ 
+}
+ 
+ 
+#comname {
+    width: 100%;
+    padding: 0 20% 0 20%;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    z-index: 10;
+}
+ 
+ 
+#comname i.fa {
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    height: 0;
+    text-align: center;
+    text-decoration: none;
+    background: transparent;
+    color: white;
+    z-index: 100;
+}
+ 
+/* 
+#nav {
+ 
+    position: absolute;
+    left: 0;
+    z-index: 100;
+    padding: 0;
+    background-color: rgba(13, 23, 17, 0.995);
+    display: flex;
+    align-self: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+} 
+ 
+  
+#nav ul {
+    list-style-type: none;
+    margin: 0 20% 0 20%;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+ 
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color: #e74c3c;
+    font-weight: bold;
+    right: 0;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 14px 16px; 
+    text-decoration: none;
+}  */
+
+ 
+a.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    background: rgba(82, 127, 99, 0.5);
+    color: white;
+}
+ 
+a.fa-facebook:hover {
+    background: #3B5998;
+    color: white;
+}
+ 
+a.fa-twitter:hover {
+    background: #55ACEE;
+    color: white;
+}
+ 
+a.fa-google:hover {
+    background: #dd4b39;
+    color: white;
+}
+ 
+a.fa-youtube:hover {
+    background: #bb0000;
+    color: white;
+}
+ 
+a.fa-instagram:hover {
+    background: #125688;
+    color: white;
+}  
+ 
+#upper h5 {
+    font-size: 20px;
+    color: white;
+}
+ 
+.qw {
+    background-color: rgba(40, 182, 94, 0.5);
+    border-radius: 5px;
+    height: 40px;
+    width: 50%;
+    border-width: 0;
+}
+ 
+.qw a {
+    text-decoration: none;
+    color: white;
+}
+ 
+.qw:hover {
+    background: #bb0000;
+}
+ 
+ 
+i.fa {
+    padding: 35px;
+    font-size: 50px;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    background: rgba(82, 127, 99, 0.5);
+    color: white;
+}
+ 
+ 
+/* For desktop: */
+.col-1 {
+    width: 8.33%;
+}
+ 
+.col-2 {
+    width: 16.66%;
+}
+ 
+.col-3 {
+    width: 25%;
+}
+ 
+.col-4 {
+    width: 33.33%;
+}
+ 
+.col-5 {
+    width: 41.66%;
+}
+ 
+.col-6 {
+    width: 50%;
+}
+ 
+.col-7 {
+    width: 58.33%;
+}
+ 
+.col-8 {
+    width: 66.66%;
+}
+ 
+.col-9 {
+    width: 75%;
+}
+ 
+.col-10 {
+    width: 83.33%;
+}
+ 
+.col-11 {
+    width: 91.66%;
+}
+ 
+.col-12 {
+    width: 100%;
+}
+ 
+@media only screen and (max-width: 768px) {
+ 
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+ 
+    #nav ul {
+        margin: 0 0 0 0;
+        font-size: 2vw;
+    }
+ 
+}
+ 
+.info2 {
+    position: absolute;
+    top: 100px;
+    font-weight: bolder;
+    font-size: 16px;
+    font-size: 4vw;
+    color: rgb(254, 7, 7);
+    text-shadow: 1px 1px 2px black;
+    z-index: 10;
+}
+ 
+ 
+ 
+div.container {
+    padding: 10px;
+}
+ 
+.in {
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 2px 10px;
+    width: 100%;
+    height: 50px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+ 
+.in:focus {
+    background: transparent;
+    background: transparent;
+    color: black;
+}
+ 
+.im {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+ 
+.im:hover {
+    opacity: 0.4;
+}
+ 
+.container {
+    padding: 16px;
+}
